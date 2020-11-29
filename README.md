@@ -9,7 +9,7 @@ API Endpoint
 https://us-central1-meu-projeto-e33b9.cloudfunctions.net/ia-mask-ml
 ```
 #### Javascript
-```
+```javascript
 var formdata = new FormData();
 formdata.append("image", fileInput.files[0], "image.jpeg");
 
@@ -25,7 +25,7 @@ fetch("https://us-central1-meu-projeto-e33b9.cloudfunctions.net/ia-mask-ml", req
   .catch(error => console.log('error', error));
 ```
 #### Java
-```
+```java
 OkHttpClient client = new OkHttpClient().newBuilder()
   .build();
 MediaType mediaType = MediaType.parse("text/plain");
@@ -42,7 +42,7 @@ Response response = client.newCall(request).execute();
 ```
 
 #### Node
-```
+```node
 var request = require('request');
 var fs = require('fs');
 var options = {
@@ -67,7 +67,7 @@ request(options, function (error, response) {
 ```
 
 #### Python
-```
+```python
 import requests
 
 url = "https://us-central1-meu-projeto-e33b9.cloudfunctions.net/ia-mask-ml"
@@ -83,7 +83,7 @@ response = requests.request("POST", url, headers=headers, data=payload, files=fi
 print(response.text)
 ```
 #### PHP
-```
+```php
 <?php
 $client = new http\Client;
 $request = new http\Client\Request;
@@ -104,7 +104,7 @@ $response = $client->getResponse();
 echo $response->getBody();
 ```
 Response
-```
+```json
 {
     "msg": "success",
     "result": "Com mascara"

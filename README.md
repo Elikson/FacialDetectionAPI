@@ -1,4 +1,4 @@
-# Facial Mask Identificator
+# Facial Mask Detection
 
 This is an API to analyze and identify if a person is using mask.
 

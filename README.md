@@ -2,6 +2,8 @@
 
 This is an API to analyze and identify if a person is using mask.
 
+![](presentation.gif)
+
 ## Usage
 
 API Endpoint

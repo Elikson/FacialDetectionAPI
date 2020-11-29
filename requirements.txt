@@ -1,0 +1,5 @@
+# Function dependencies, for example:
+# package>=version
+tensorflow>=2.0.0
+pillow
+numpy
